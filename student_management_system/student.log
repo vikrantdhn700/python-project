@@ -1,0 +1,9 @@
+2026-08-07 17:49:58,956 - INFO - Added Student: ID=stu_01, Name=Kamal
+2026-08-07 17:50:27,256 - INFO - Added Student: ID=stu_02, Name=Neha
+2026-08-07 17:50:56,647 - INFO - Added Student: ID=rahul, Name=Rahul
+2026-08-07 17:54:33,960 - INFO - Removed Student: ID=rahul
+2026-08-07 18:00:24,760 - INFO - Searched Student: ID=stu_01
+2026-08-07 18:01:28,720 - INFO - Updated Student: ID=stu_01
+2026-08-07 18:04:45,900 - INFO - Searched Student: ID=stu_02
+2026-08-07 18:05:09,902 - ERROR - Failed Search: Student ID stu0002 not found.
+2026-08-07 18:07:10,754 - INFO - Retrieved all students

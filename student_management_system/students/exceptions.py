@@ -1,0 +1,3 @@
+class StudentException(Exception):
+    pass
+

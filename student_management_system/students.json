@@ -1,0 +1,14 @@
+{
+    "stu_01": {
+        "id": "stu_01",
+        "name": "Kamal",
+        "age": 28,
+        "course": ".net"
+    },
+    "stu_02": {
+        "id": "stu_02",
+        "name": "Neha",
+        "age": 24,
+        "course": "java"
+    }
+}
