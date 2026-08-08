@@ -1,3 +1,4 @@
 2026-08-08 19:19:18,342 - INFO - Expense Tracker application started.
 2026-08-08 19:19:20,317 - WARNING - Invalid menu choice: & C:/Users/hp/AppData/Local/Programs/Python/Python313/python.exe d:/julysuper30/expense_tracker/main.py
 2026-08-08 19:20:02,323 - INFO - Expense added successfully. ID=1
+2026-08-08 19:21:01,378 - INFO - Monthly report exported: D:\julysuper30\expense_tracker\reports\monthly_report_2026-08.txt
