@@ -34,7 +34,7 @@ library_management_system/
     ├── __init__.py
     ├── books.py
     ├── exceptions.py
-    ├── history.py
+    ├── borrow_history.py
     ├── logger.py
     └── validation.py
 ```
@@ -83,7 +83,7 @@ view_all_books()
 get_book_by_id()
 ```
 
-### `lms/history.py`
+### `lms/borrow_history.py`
 
 Manages borrowing and returning history.
 
@@ -114,10 +114,7 @@ validate_borrower()
 Contains custom exceptions:
 
 ```text
-LibraryError
-BookNotFoundError
-AlreadyBorrowedError
-InvalidBookIDError
+LibraryManagementError
 ```
 
 Exception hierarchy:
@@ -125,9 +122,7 @@ Exception hierarchy:
 ```text
 LibraryError
 │
-├── BookNotFoundError
-├── AlreadyBorrowedError
-└── InvalidBookIDError
+├── LibraryManagementError
 ```
 
 ### `lms/logger.py`
@@ -169,13 +164,13 @@ Example:
 
 ```json
 [
-    {
-        "id": 1,
-        "title": "Python Crash Course",
-        "author": "Eric Matthes",
-        "available": true,
-        "borrower": null
-    }
+  {
+    "id": 1,
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "available": true,
+    "borrower": null
+  }
 ]
 ```
 
@@ -183,13 +178,13 @@ When a book is borrowed:
 
 ```json
 [
-    {
-        "id": 1,
-        "title": "Python Crash Course",
-        "author": "Eric Matthes",
-        "available": false,
-        "borrower": "Vikrant"
-    }
+  {
+    "id": 1,
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "available": false,
+    "borrower": "Vikrant"
+  }
 ]
 ```
 
@@ -201,20 +196,20 @@ Example:
 
 ```json
 [
-    {
-        "book_id": 1,
-        "title": "Python Crash Course",
-        "borrower": "Vikrant",
-        "action": "BORROW",
-        "date": "2026-08-10 10:30:15"
-    },
-    {
-        "book_id": 1,
-        "title": "Python Crash Course",
-        "borrower": "Vikrant",
-        "action": "RETURN",
-        "date": "2026-08-10 11:15:20"
-    }
+  {
+    "book_id": 1,
+    "title": "Python Crash Course",
+    "borrower": "Vikrant",
+    "action": "BORROW",
+    "date": "2026-08-10 10:30:15"
+  },
+  {
+    "book_id": 1,
+    "title": "Python Crash Course",
+    "borrower": "Vikrant",
+    "action": "RETURN",
+    "date": "2026-08-10 11:15:20"
+  }
 ]
 ```
 
@@ -430,7 +425,7 @@ main.py
           ├── books.py
           │      └── Book operations
           │
-          ├── history.py
+          ├── borrow_history.py
           │      └── Borrowing history
           │
           ├── validation.py
