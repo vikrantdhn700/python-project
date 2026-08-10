@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "python",
+        "author": "rummos",
+        "available": true,
+        "borrower": null
+    },
+    {
+        "id": 2,
+        "title": ".Net",
+        "author": "Microsoft",
+        "available": true,
+        "borrower": null
+    },
+    {
+        "id": 3,
+        "title": "Java",
+        "author": "Sun Microsystem",
+        "available": true,
+        "borrower": null
+    }
+]

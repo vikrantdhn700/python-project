@@ -1,2 +1,4 @@
 id,date,category,description,amount
-1,2026-08-08,Food,Lunch,250.0
+1,2026-08-08,Food,Dinner,300.0
+2,2026-07-06,Shopping,T shirt,999.0
+3,2026-08-02,Food,lunch,300.0

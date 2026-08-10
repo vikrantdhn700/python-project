@@ -1,0 +1,16 @@
+[
+    {
+        "book_id": 2,
+        "title": ".Net",
+        "borrower": "rahul",
+        "action": "BORROW",
+        "date": "2026-08-09 23:00:38"
+    },
+    {
+        "book_id": 2,
+        "title": ".Net",
+        "borrower": "rahul",
+        "action": "RETURN",
+        "date": "2026-08-09 23:03:47"
+    }
+]

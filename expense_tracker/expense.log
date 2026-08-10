@@ -1,4 +1,17 @@
-2026-08-08 19:19:18,342 - INFO - Expense Tracker application started.
-2026-08-08 19:19:20,317 - WARNING - Invalid menu choice: & C:/Users/hp/AppData/Local/Programs/Python/Python313/python.exe d:/julysuper30/expense_tracker/main.py
-2026-08-08 19:20:02,323 - INFO - Expense added successfully. ID=1
-2026-08-08 19:21:01,378 - INFO - Monthly report exported: D:\julysuper30\expense_tracker\reports\monthly_report_2026-08.txt
+2026-08-08 22:24:12,019 - INFO - Expense Tracker application started.
+2026-08-08 22:24:43,153 - INFO - Expense added successfully. ID=1
+2026-08-08 22:25:21,648 - INFO - Expense added successfully. ID=2
+2026-08-08 22:25:57,048 - INFO - Expense added successfully. ID=3
+2026-08-08 22:26:32,188 - INFO - Expense added successfully. ID=4
+2026-08-08 22:29:10,226 - INFO - Expense deleted successfully. ID=4
+2026-08-08 22:32:36,524 - WARNING - Invalid menu choice: & C:/Users/hp/AppData/Local/Programs/Python/Python313/python.exe d:/julysuper30/expense_tracker/main.py
+2026-08-08 22:33:07,927 - ERROR - Update validation error: Invalid date. Use YYYY-MM-DD format. unconverted data remains: 22
+2026-08-08 22:33:59,944 - ERROR - Update validation error: Invalid date. Use YYYY-MM-DD format. time data '' does not match format '%Y-%m-%d'
+2026-08-08 22:34:39,913 - INFO - Expense updated successfully. ID=3
+2026-08-08 22:36:36,466 - WARNING - Invalid menu choice: & C:/Users/hp/AppData/Local/Programs/Python/Python313/python.exe d:/julysuper30/expense_tracker/main.py
+2026-08-08 22:36:46,923 - INFO - All expenses displayed.
+2026-08-08 22:40:26,434 - INFO - Monthly summary generated for 2026-08
+2026-08-08 22:46:12,599 - INFO - Category-wise summary generated.
+2026-08-08 22:46:58,948 - INFO - Highest expense displayed.
+2026-08-08 22:48:03,304 - INFO - Monthly report exported: D:\julysuper30\expense_tracker\reports\monthly_report_2026-08.txt
+2026-08-08 22:49:04,750 - INFO - Expense Tracker application stopped.

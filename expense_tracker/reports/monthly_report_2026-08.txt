@@ -4,18 +4,19 @@ MONTHLY EXPENSE REPORT - 2026-08
 
 EXPENSE DETAILS
 --------------------------------------------------
-ID: 1 | Date: 2026-08-08 | Category: Food | Description: Lunch | Amount: ₹250.00
+ID: 1 | Date: 2026-08-08 | Category: Food | Description: Dinner | Amount: ₹300.00
+ID: 3 | Date: 2026-08-02 | Category: Food | Description: lunch | Amount: ₹300.00
 
-TOTAL EXPENSE: ₹250.00
+TOTAL EXPENSE: ₹600.00
 
 CATEGORY-WISE SUMMARY
 --------------------------------------------------
-Food: ₹250.00
+Food: ₹600.00
 
 HIGHEST EXPENSE
 --------------------------------------------------
-Description: Lunch
+Description: Dinner
 Category: Food
-Amount: ₹250.00
+Amount: ₹300.00
 
 ==================================================
