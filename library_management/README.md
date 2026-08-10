@@ -244,51 +244,9 @@ CRITICAL
 
 The application handles the following scenarios.
 
-### Book Not Found
-
-Trying to access a book that doesn't exist raises:
-
 ```python
-BookNotFoundError
+LibraryManagementError
 ```
-
-Example:
-
-```text
-Book with ID 999 was not found.
-```
-
-### Already Borrowed
-
-Trying to borrow a book that is already borrowed raises:
-
-```python
-AlreadyBorrowedError
-```
-
-Example:
-
-```text
-'Python Crash Course' is already borrowed.
-```
-
-### Invalid Book ID
-
-Entering an invalid book ID raises:
-
-```python
-InvalidBookIDError
-```
-
-Example:
-
-```text
-Book ID must be a valid integer.
-```
-
-### Invalid Input
-
-Empty titles, authors, or borrower names are also validated.
 
 ## Exception Demonstration
 
