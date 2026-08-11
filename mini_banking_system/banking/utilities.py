@@ -15,5 +15,5 @@ def current_datetime():
 
 
 def format_money(amount):
-    """Format a number as currency."""
-    return f"${float(amount):,.2f}"
+    """Format a number as Indian rupees."""
+    return f"Rs. {float(amount):,.2f}"

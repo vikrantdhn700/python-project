@@ -196,7 +196,7 @@ Deposit:
 Choose an option (1-9): 2
 Enter account number: A1001
 Enter deposit amount: 250
-Deposit successful. New balance: $1,250.00
+Deposit successful. New balance: Rs. 1,250.00
 ```
 
 Withdrawal:
@@ -205,7 +205,7 @@ Withdrawal:
 Choose an option (1-9): 3
 Enter account number: A1001
 Enter withdrawal amount: 100
-Withdrawal successful. New balance: $1,150.00
+Withdrawal successful. New balance: Rs. 1,150.00
 ```
 
 Transfer after creating account `A1002`:
@@ -215,8 +215,8 @@ Choose an option (1-9): 4
 Enter sender account number: A1001
 Enter receiver account number: A1002
 Enter transfer amount: 300
-Transfer successful. Sender balance: $850.00
-Receiver balance: $300.00
+Transfer successful. Sender balance: Rs. 850.00
+Receiver balance: Rs. 300.00
 ```
 
 Transaction history:
@@ -227,8 +227,8 @@ Enter account number: A1001
 Transaction ID: 9F0C12A5D371
 Date/time: 2026-08-11 19:15:00
 Type: TRANSFER OUT
-Amount: $300.00
-Balance: $850.00
+Amount: Rs. 300.00
+Balance: Rs. 850.00
 Status: SUCCESS
 Details: Transferred to A1002
 ```
@@ -253,7 +253,7 @@ TRANSACTION REPORT
 Total transactions: 5
 Successful transactions: 4
 Failed transactions: 1
-Total deposits: $250.00
-Total successful withdrawals: $100.00
-Total transfers: $300.00
+Total deposits: Rs. 250.00
+Total successful withdrawals: Rs. 100.00
+Total transfers: Rs. 300.00
 ```
