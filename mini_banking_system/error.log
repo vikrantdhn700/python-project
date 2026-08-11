@@ -1,0 +1,6 @@
+2026-08-11 19:03:12,217 | ERROR | Account not found: 3000
+2026-08-11 19:03:12,218 | ERROR | Handled banking error: Account not found: 3000
+2026-08-11 19:05:18,274 | ERROR | Account not found: 2356
+2026-08-11 19:05:18,274 | ERROR | Handled banking error: Account not found: 2356
+2026-08-11 19:05:53,354 | ERROR | Account not found: 222
+2026-08-11 19:05:53,354 | ERROR | Handled banking error: Account not found: 222
