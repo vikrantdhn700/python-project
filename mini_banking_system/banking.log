@@ -1,3 +1,8 @@
 2026-08-11 19:01:39,366 | INFO | Account created | account=1234567890 | name=kk | balance=5000.00
 2026-08-11 19:02:04,779 | INFO | Deposit successful | id=BFA2A483E42D | account=1234567890 | amount=2000.00
 2026-08-11 19:03:26,049 | INFO | Withdrawal successful | id=F8ADB1E39879 | account=1234567890 | amount=3000.00
+2026-08-11 20:31:33,648 | INFO | Account created | account=123 | name=rahul | balance=5000.00
+2026-08-11 20:32:06,570 | INFO | Account created | account=456 | name=kamal | balance=3000.00
+2026-08-11 20:33:57,083 | INFO | Deposit successful | id=EE85266C94AF | account=123 | amount=3000.00
+2026-08-11 20:35:23,288 | INFO | Withdrawal successful | id=E8A62803247F | account=123 | amount=2000.00
+2026-08-11 20:36:02,738 | INFO | Transfer successful | id=42570480C6BF | sender=123 | receiver=456 | amount=1000.00

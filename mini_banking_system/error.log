@@ -4,3 +4,6 @@
 2026-08-11 19:05:18,274 | ERROR | Handled banking error: Account not found: 2356
 2026-08-11 19:05:53,354 | ERROR | Account not found: 222
 2026-08-11 19:05:53,354 | ERROR | Handled banking error: Account not found: 222
+2026-08-11 20:31:44,146 | ERROR | Handled banking error: Account number cannot be empty.
+2026-08-11 20:34:38,574 | ERROR | Account not found: LKJLKJL
+2026-08-11 20:34:38,574 | ERROR | Handled banking error: Account not found: LKJLKJL

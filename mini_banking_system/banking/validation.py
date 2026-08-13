@@ -11,7 +11,8 @@ def validate_account_number(account_number):
     if not account_number:
         raise InvalidInputError("Account number cannot be empty.")
     if not account_number.isalnum():
-        raise InvalidInputError("Account number must contain only letters and numbers.")
+        raise InvalidInputError(
+            "Account number must contain only letters and numbers.")
     return account_number
 
 
@@ -26,9 +27,10 @@ def validate_name(name):
 def _to_money(value, message):
     """Convert input to a Decimal with two decimal places."""
     try:
-        amount = Decimal(str(value)).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
-    except (InvalidOperation, ValueError, TypeError):
-        raise InvalidAmountError(message)
+        amount = Decimal(str(value)).quantize(
+            Decimal("0.01"), rounding=ROUND_HALF_UP)
+    except (InvalidOperation, ValueError, TypeError) as e:
+        raise InvalidAmountError(f"{message}: {e}") from e
     if not amount.is_finite():
         raise InvalidAmountError(message)
     return amount
