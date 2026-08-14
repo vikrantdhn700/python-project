@@ -1,3 +1,5 @@
+""" Main module to demonstrate the functionality of the game character system. """
+
 from warrior import Warrior
 from wizard import Wizard
 from archer import Archer

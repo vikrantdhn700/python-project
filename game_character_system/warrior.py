@@ -11,6 +11,7 @@ class Warrior(GameCharacter):
     def sword_attack(self, target):
         target.take_damage(self.damage)
         print(f"{self.name} attacks with {self.damage} damage!")
+        print("\n")
 
     def display_info(self):
         base_info = super().display_info()
