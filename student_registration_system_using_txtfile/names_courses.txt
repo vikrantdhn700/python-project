@@ -1,0 +1,12 @@
+name,course
+Sudhanshu Kumar,Python
+Rahul Sharma,Data Science
+Priya Nair,Python
+Amit Patel,Web Development
+Neha Gupta,Data Analytics
+Arjun Reddy,Machine Learning
+Kavya Iyer,SQL
+Rohan Mehta,Cloud Computing
+Ishita Das,Cyber Security
+Vikram Singh,DevOps
+Ananya Verma,Artificial Intelligence
