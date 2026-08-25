@@ -1,0 +1,57 @@
+product_id,product_name,category,brand,price,rating,stock,discount
+P001,SwiftBook Air 14,Laptop,NovaTech,64999,4.4,35,10
+P002,ProBook X15,Laptop,ZenByte,82999,4.6,22,12
+P003,GameForce G5,Laptop,Apex,94999,4.5,18,15
+P004,StudyMate 14,Laptop,Orbit,42999,4.2,41,8
+P005,Creator Pro 16,Laptop,Vertex,119999,4.7,12,10
+P006,UltraLite 13,Laptop,NovaTech,74999,4.3,27,7
+P007,BusinessBook 15,Laptop,ZenByte,68999,4.4,30,9
+P008,FlexBook 360,Laptop,Orbit,77999,4.5,16,11
+P009,NovaPhone A5,Mobile,NovaTech,18999,4.2,85,10
+P010,ZenPhone Pro,Mobile,ZenByte,42999,4.6,48,12
+P011,Apex One 5G,Mobile,Apex,27999,4.4,63,15
+P012,Orbit Mini,Mobile,Orbit,14999,4.1,110,8
+P013,Vertex Max,Mobile,Vertex,54999,4.7,32,10
+P014,NovaPhone Lite,Mobile,NovaTech,11999,4.0,125,7
+P015,ZenPhone Neo,Mobile,ZenByte,23999,4.3,74,9
+P016,Apex Fold,Mobile,Apex,89999,4.5,14,13
+P017,SonicBeat 500,Headphones,Sonic,2999,4.3,140,15
+P018,QuietWave Pro,Headphones,Aural,8999,4.6,58,10
+P019,BassCore X,Headphones,Pulse,1999,4.1,175,20
+P020,AirTone Buds,Headphones,Aural,4999,4.4,96,12
+P021,StudioMax H7,Headphones,Sonic,12999,4.7,31,8
+P022,PulsePods Mini,Headphones,Pulse,2499,4.2,122,18
+P023,ClearCall 200,Headphones,TalkPro,3499,4.0,80,10
+P024,GameSound GX,Headphones,Apex,5999,4.5,67,14
+P025,TypePro Mechanical,Keyboard,KeyCraft,4499,4.6,75,10
+P026,SlimKeys Wireless,Keyboard,Orbit,2299,4.2,105,12
+P027,GameKeys RGB,Keyboard,Apex,3999,4.4,88,15
+P028,OfficeType K2,Keyboard,WorkEase,1499,4.1,130,8
+P029,KeyCraft Mini,Keyboard,KeyCraft,3299,4.3,69,10
+P030,ErgoBoard Plus,Keyboard,WorkEase,5499,4.5,44,7
+P031,TypeLite Combo,Keyboard,NovaTech,1799,4.0,115,18
+P032,ProKeys 98,Keyboard,ZenByte,6999,4.7,28,9
+P033,VisionView 24,Monitor,VisionX,12999,4.3,53,10
+P034,UltraView 27,Monitor,PixelPro,21999,4.6,37,12
+P035,GameVision 32,Monitor,Apex,28999,4.5,24,15
+P036,OfficeScreen 22,Monitor,WorkEase,9999,4.1,65,8
+P037,CreatorDisplay 4K,Monitor,PixelPro,37999,4.7,19,10
+P038,CurveView 34,Monitor,VisionX,42999,4.6,13,9
+P039,EyeCare 24,Monitor,Orbit,14999,4.4,46,11
+P040,NovaDisplay 27,Monitor,NovaTech,18999,4.2,39,14
+P041,TabGo 10,Tablet,Orbit,17999,4.2,72,10
+P042,CreatorTab Pro,Tablet,Vertex,45999,4.7,25,12
+P043,NovaTab Air,Tablet,NovaTech,24999,4.4,51,15
+P044,ZenTab Mini,Tablet,ZenByte,14999,4.1,84,8
+P045,Apex Gaming Tab,Tablet,Apex,38999,4.5,29,10
+P046,StudyTab 8,Tablet,Orbit,10999,4.0,98,18
+P047,Vertex Pad 12,Tablet,Vertex,52999,4.6,17,9
+P048,NovaTab Kids,Tablet,NovaTech,12999,4.3,61,13
+P049,USB-C Hub 7-in-1,Accessories,ConnectX,2999,4.4,150,10
+P050,Wireless Mouse M3,Accessories,WorkEase,1299,4.2,210,15
+P051,Laptop Stand Pro,Accessories,ErgoGear,1999,4.5,135,12
+P052,FastCharge 65W,Accessories,VoltEdge,2499,4.6,180,8
+P053,Webcam Full HD,Accessories,VisionX,3499,4.3,92,10
+P054,Portable SSD 1TB,Accessories,DataCore,7999,4.7,57,14
+P055,HDMI Cable 2m,Accessories,ConnectX,699,4.1,260,20
+P056,Tech Backpack 25L,Accessories,CarryPro,2799,4.4,108,11
