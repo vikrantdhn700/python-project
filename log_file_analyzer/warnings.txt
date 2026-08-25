@@ -1,0 +1,7 @@
+WARNING - Memory usage high
+WARNING - API response time exceeded threshold
+WARNING - Low stock detected for product P017
+WARNING - Disk space running low
+WARNING - Multiple failed login attempts detected
+WARNING - Session token nearing expiration
+WARNING - External API rate limit approaching
