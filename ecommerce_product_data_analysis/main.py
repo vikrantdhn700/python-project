@@ -6,13 +6,13 @@ import pandas as pd
 
 df = pd.read_csv('products.csv')
 
-# Inspect dataset
+# # Inspect dataset
 print("Dataset Overview:")
 print(df.info())
 print("\nSummary Statistics:")
 print(df.describe())
 
-# Find total number of products
+# # Find total number of products
 total_products = df.shape[0]
 print("Total Products:", total_products)
 
@@ -57,15 +57,15 @@ sorted_by_rating = df.sort_values(by='rating', ascending=False)
 print("Products Sorted by Rating (Descending):\n", sorted_by_rating)
 
 # Find products with stock less than 10
-low_stock_products = df[df['stock'] < 10]
+low_stock_products = df[df['stock'] < 50]
 print("Low Stock Products (Stock < 10):\n", low_stock_products)
 
-# Create discount amount
+# # Create discount amount
 df['discounted_amount'] = df['price'] * 0.8
 print("Products with Discounted Amount:\n",
       df[['product_name', 'price', 'discounted_amount']])
 
-# Create final price
+# # Create final price
 df['final_price'] = df['price'] - df['discounted_amount']
 print("Products with Final Price:\n",
       df[['product_name', 'price', 'discounted_amount', 'final_price']])
@@ -82,5 +82,5 @@ print("Average Rating by Brand:\n", average_rating_by_brand)
 max_price_by_category = df.groupby('category')['price'].max()
 print("Maximum Product Price by Category:\n", max_price_by_category)
 
-# Export Final dataframe to CSV
+# # Export Final dataframe to CSV
 df.to_csv('output/final_products.csv', index=False)

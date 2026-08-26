@@ -4,29 +4,29 @@ This script performs various data analysis tasks on a CSV file containing studen
 
 import pandas as pd
 
-# Read CSV
+# # Read CSV
 df = pd.read_csv('students.csv')
-# print(df)
+print(df)
 
 # Display the first 5 rows
 print("First 5 rows:\n", df.head(5))
 
-# Display the last 5 rows
-print("Last 5 rows:\n", df.tail(5))
+# # Display the last 5 rows
+print("Last 5 rows:\n", df.tail())
 
-# Display the shape of the DataFrame
+# # Display the shape of the DataFrame
 print("Shape of DataFrame:", df.shape)
 
-# Display the no of columns
+# # Display the no of columns
 print("No of columns:", df.shape[1])
 
-# Display the no of rows
+# # Display the no of rows
 print("No of rows:", df.shape[0])
 
 # Display the column names
 print("Column names:", list(df.columns))
 
-# Display the data types of each column
+# # Display the data types of each column
 print("Data types:\n", df.dtypes)
 
 # Get basic information
@@ -39,11 +39,11 @@ print(df.describe())
 avg_python_marks = df['python_marks'].mean()
 print("Average Python Marks:", avg_python_marks)
 
-# Find the average sql marks of students
+# # Find the average sql marks of students
 avg_sql_marks = df['sql_marks'].mean()
 print("Average SQL Marks:", avg_sql_marks)
 
-# Find the average pandas marks of students
+# # Find the average pandas marks of students
 avg_pandas_marks = df['pandas_marks'].mean()
 print("Average Pandas Marks:", avg_pandas_marks)
 
@@ -68,7 +68,7 @@ min_pandas_marks = df['pandas_marks'].min()
 print("Minimum Pandas Marks:", min_pandas_marks)
 
 # Sort student by python marks in descending order
-sorted_by_python = df.sort_values(by='python_marks', ascending=False)
+sorted_by_python = df.sort_values(by='python_marks', ascending=True)
 print("Students sorted by Python Marks (Descending):\n", sorted_by_python)
 
 # Sort student by attendance in descending order
@@ -87,13 +87,13 @@ print("Students with Attendance > 75:\n", filtered_attendance)
 selected_columns = df[['name', 'python_marks', 'pandas_marks']]
 print("Selected Columns (Name, Python Marks, Pandas Marks):\n", selected_columns)
 
-# Add a new column 'total_marks'
+# # Add a new column 'total_marks'
 df['total_marks'] = df['python_marks'] + df['sql_marks'] + df['pandas_marks']
 print("Total Marks:\n", df)
 
-# Add a new column 'avg_marks'
+# # Add a new column 'avg_marks'
 df['avg_marks'] = df['total_marks'] / 3
 print("Average Marks:\n", df)
 
-# save the processed dataset in a new CSV file
+# # save the processed dataset in a new CSV file
 df.to_csv('output/processed_students.csv', index=False)

@@ -1,0 +1,15 @@
+Note 1: Learn Python basics.
+Note 2: Learn variables and data types.
+Note 3: Learn conditional statements.
+Note 4: Learn loops in Python.
+Note 5: Learn Python functions.
+Note 6: Learn exception handling.
+Note 7: Learn Python packages.
+Note 8: Learn logging in Python.
+Note 9: Learn object-oriented programming.
+Note 10: Learn Python file handling.
+Note 11: Practice file handling regularly.
+Note 12: Build projects using Python.
+Note 13: Learn Pandas after Python basics.
+Note 14: Learn Numpy after Python basics. 
+Note 15: Learn Plotly after Python basics. 

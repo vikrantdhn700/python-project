@@ -2,7 +2,7 @@ student_id,name,age,city,python_marks,sql_marks,pandas_marks,attendance,total_ma
 STU001,Aarav Sharma,20,Delhi,88,82,91,94,261,87.0
 STU002,Aditi Verma,21,Mumbai,76,85,80,89,241,80.33333333333333
 STU003,Arjun Patel,19,Ahmedabad,92,78,88,96,258,86.0
-STU004,Ananya Singh,22,Lucknow,69,74,72,85,215,71.66666666666667
+STU004,Ananya Singh,22,Lucknow,69,74,72,20,215,71.66666666666667
 STU005,Rohan Mehta,20,Pune,81,89,84,92,254,84.66666666666667
 STU006,Priya Nair,21,Kochi,95,93,97,98,285,95.0
 STU007,Vikram Reddy,23,Hyderabad,73,68,75,81,216,72.0
