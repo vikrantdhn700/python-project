@@ -1,0 +1,31 @@
+order_id,product,quantity,price,city,revenue
+101,Laptop,1,65000,Bangalore,65000
+102,Mouse,2,1200,Delhi,2400
+103,Keyboard,1,2500,Mumbai,2500
+104,Monitor,2,18000,Chennai,36000
+105,Printer,1,14500,Hyderabad,14500
+106,Webcam,3,3200,Pune,9600
+107,Headphones,2,4500,Kolkata,9000
+108,Tablet,1,28000,Ahmedabad,28000
+109,USB Drive,5,900,Jaipur,4500
+110,External HDD,2,6200,Lucknow,12400
+111,Laptop,3,1800,Bangalore,5400
+112,Router,1,3500,Delhi,3500
+113,Smartphone,2,32000,Mumbai,64000
+114,Speakers,4,2200,Chennai,8800
+115,SSD,2,7500,Hyderabad,15000
+116,Microphone,1,5800,Pune,5800
+117,Speakers,2,6800,Kolkata,13600
+118,Projector,1,42000,Ahmedabad,42000
+119,HDMI Cable,6,700,Jaipur,4200
+120,Graphics Card,1,48000,Lucknow,48000
+121,RAM,4,4200,Bangalore,16800
+122,Smartwatch,2,12500,Delhi,25000
+123,Scanner,1,16000,Mumbai,16000
+124,Cooling Pad,3,2100,Chennai,6300
+125,Mouse,5,1500,Hyderabad,7500
+126,Mechanical Keyboard,2,6200,Pune,12400
+127,WiFi Adapter,4,1300,Kolkata,5200
+128,Docking Station,1,9800,Ahmedabad,9800
+129,Ink Cartridge,6,1900,Jaipur,11400
+130,Headphones,1,18500,Lucknow,18500
