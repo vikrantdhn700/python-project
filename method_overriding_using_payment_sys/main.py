@@ -31,6 +31,7 @@ class WalletPayment(Payment):
 def main() -> None:
     amount = 5000
     payment_methods = [
+        Payment(),
         UPIPayment(),
         CreditCardPayment(),
         NetBankingPayment(),

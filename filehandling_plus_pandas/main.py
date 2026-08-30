@@ -56,29 +56,30 @@ df = pd.read_csv(FILENAME)
 df['revenue'] = df['quantity'] * df['price']
 print(df)
 
-# Total revenue column added
+# # Total revenue column added
 total_revenue = sum(df["revenue"])
 print(f"Total Revenue: {total_revenue}")
 
-# Average order value
+# # Average order value
 avg_order_value = df['revenue'].mean()
 print(f"Average order value: {avg_order_value}")
 
-# Highest order value and lowest order value
+# # Highest order value and lowest order value
 highest_value_order = df.loc[df["revenue"].idxmax()]
 lowest_value_order = df.loc[df["revenue"].idxmin()]
 print(f"Highest value order:\n {highest_value_order}")
 print(f"Lowest value order: \n {lowest_value_order}")
 
-# Revenue product wise
+# # Revenue product wise
 revenue_product_wise = df.groupby(
     'product')['revenue'].sum().sort_values(ascending=True)
 print(revenue_product_wise)
 
-# Revenue city wise
-
+# # Revenue city wise
 revenue_city_wise = df.groupby(
-    'city')['revenue'].sum().sort_values(ascending=True)
+    'city')['revenue'].sum().sort_values(ascending=False)
+print("Revenue city wise: \n")
+print(revenue_city_wise)
 
-# save proccessed data as sales.csv
+# # save proccessed data as sales.csv
 df.to_csv('sales.csv', index=False)
