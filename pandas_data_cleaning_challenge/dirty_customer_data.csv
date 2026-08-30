@@ -1,0 +1,121 @@
+customer_id,name,age,city,email,purchase_amount,rating
+C001,aarav sharma,21,bangalore,aarav.sharma1@example.com,537.5,2
+C002,MEERA IYER,22,DELHI,meera.iyer2@example.com,575.0,3
+C003,Rohan Verma,23,Mumbai,rohan.verma3@example.com,612.5,4
+C004,  ananya singh  ,24, chennai ,ananya.singh4@example.com,650.0,5
+C005,VIKRAM PATEL,25,HYDERABAD,vikram.patel5@example.com,687.5,1
+ c006 ,sneha reddy,26,pune,sneha.reddy6@example.com,725.0,2
+C007,Arjun Nair,27, Kolkata,arjun.nair7@example.com,"₹1,250.50",3
+C008,  PRIYA DAS  ,28,ahmedabad ,  PRIYA.DAS@EXAMPLE.COM  ,800.0,4
+C009,kabir khan,29,  JAIPUR  ,kabir.khan9@example.com,837.5,5
+C010,Neha Joshi,30,lucknow,neha.joshi10@example.com,875.0,
+C011,aarav sharma,31,bangalore,aarav.sharma11@example.com,,2
+ c012 ,  MEERA IYER  ,32,DELHI,,950.0,3
+C013,Rohan Verma,,Mumbai,rohan.verma13@example.com,987.5,4
+C014,ananya singh,34,,ananya.singh14@example.com,"₹1,250.50",5
+C015,VIKRAM PATEL,35,HYDERABAD,vikram.patel15@example.com,1062.5,1
+C016,  sneha reddy  ,36,pune,  SNEHA.REDDY@EXAMPLE.COM  ,1100.0,five
+C017,Arjun Nair,unknown, Kolkata,arjun.nair17@example.com,1137.5,3
+ c018 ,PRIYA DAS,38,  ahmedabad  ,priya.das18@example.com,1175.0,4
+C019,kabir khan,twenty five,JAIPUR,kabir.khan19@example.com,1212.5,5
+C020,  Neha Joshi  ,40,lucknow,neha.joshi20@example.com,1250.0,
+C021,aarav sharma,41,bangalore,aarav.sharma21@example.com,"₹1,250.50",2
+C022,MEERA IYER,42,DELHI,meera.iyer22@example.com,,3
+C023,Rohan Verma,43,Mumbai,rohan.verma23@example.com,not available,4
+ c024 ,  ananya singh  ,44, chennai ,,1400.0,5
+C025,VIKRAM PATEL,45,HYDERABAD,vikram.patel25@example.com,1437.5,1
+C026,sneha reddy,,pune,sneha.reddy26@example.com,1475.0,2
+C027,Arjun Nair,47,  Kolkata  ,arjun.nair27@example.com,1512.5,3
+C028,  PRIYA DAS  ,48,,priya.das28@example.com,"₹1,250.50",4
+C029,,49,JAIPUR,kabir.khan29@example.com,1587.5,5
+ c030 ,Neha Joshi,50,lucknow,neha.joshi30@example.com,1625.0,
+C031,aarav sharma,51,bangalore,aarav.sharma31@example.com,1662.5,2
+C032,  MEERA IYER  ,52,DELHI,  MEERA.IYER@EXAMPLE.COM  ,1700.0,five
+C033,Rohan Verma,53,Mumbai,rohan.verma33@example.com,,4
+C034,ananya singh,unknown, chennai ,ananya.singh34@example.com,1775.0,5
+C035,VIKRAM PATEL,55,HYDERABAD,vikram.patel35@example.com,"₹1,250.50",1
+ c036 ,  sneha reddy  ,56,  pune  ,,1850.0,2
+C037,Arjun Nair,57, Kolkata,arjun.nair37@example.com,1887.5,3
+C038,PRIYA DAS,twenty five,ahmedabad ,priya.das38@example.com,1925.0,4
+C039,kabir khan,,JAIPUR,kabir.khan39@example.com,1962.5,5
+C040,  Neha Joshi  ,60,lucknow,  NEHA.JOSHI@EXAMPLE.COM  ,2000.0,
+C041,aarav sharma,61,bangalore,aarav.sharma41@example.com,2037.5,2
+ c042 ,MEERA IYER,62,,meera.iyer42@example.com,"₹1,250.50",3
+C043,Rohan Verma,63,Mumbai,rohan.verma43@example.com,2112.5,4
+C044,  ananya singh  ,64, chennai ,ananya.singh44@example.com,,5
+C045,VIKRAM PATEL,20,  HYDERABAD  ,vikram.patel45@example.com,2187.5,1
+C046,sneha reddy,21,pune,sneha.reddy46@example.com,not available,2
+C047,Arjun Nair,22, Kolkata,arjun.nair47@example.com,2262.5,3
+ c048 ,  PRIYA DAS  ,23,ahmedabad ,,2300.0,five
+C049,kabir khan,24,JAIPUR,kabir.khan49@example.com,"₹1,250.50",5
+C050,Neha Joshi,25,lucknow,neha.joshi50@example.com,2375.0,
+C051,aarav sharma,unknown,bangalore,aarav.sharma51@example.com,2412.5,2
+C052,  MEERA IYER  ,,DELHI,meera.iyer52@example.com,2450.0,3
+C053,Rohan Verma,28,Mumbai,rohan.verma53@example.com,2487.5,4
+ c054 ,ananya singh,29,  chennai  ,ananya.singh54@example.com,2525.0,5
+C055,VIKRAM PATEL,30,HYDERABAD,vikram.patel55@example.com,,1
+C056,  sneha reddy  ,31,,  SNEHA.REDDY@EXAMPLE.COM  ,"₹1,250.50",2
+C057,Arjun Nair,twenty five, Kolkata,arjun.nair57@example.com,2637.5,3
+C058,,33,ahmedabad ,priya.das58@example.com,2675.0,4
+C059,kabir khan,34,JAIPUR,kabir.khan59@example.com,2712.5,5
+ c060 ,  Neha Joshi  ,35,lucknow,,2750.0,
+C061,aarav sharma,36,bangalore,aarav.sharma61@example.com,2787.5,2
+C062,MEERA IYER,37,DELHI,meera.iyer62@example.com,2825.0,3
+C063,Rohan Verma,38,  Mumbai  ,rohan.verma63@example.com,"₹1,250.50",4
+C064,  ananya singh  ,39, chennai ,  ANANYA.SINGH@EXAMPLE.COM  ,2900.0,five
+C065,VIKRAM PATEL,,HYDERABAD,vikram.patel65@example.com,2937.5,1
+ c066 ,sneha reddy,41,pune,sneha.reddy66@example.com,,2
+C067,Arjun Nair,42, Kolkata,arjun.nair67@example.com,3012.5,3
+C068,  PRIYA DAS  ,unknown,ahmedabad ,priya.das68@example.com,3050.0,4
+C069,kabir khan,44,JAIPUR,kabir.khan69@example.com,not available,5
+C070,Neha Joshi,45,,neha.joshi70@example.com,"₹1,250.50",
+C071,aarav sharma,46,bangalore,aarav.sharma71@example.com,3162.5,2
+ c072 ,  MEERA IYER  ,47,  DELHI  ,,3200.0,3
+C073,Rohan Verma,48,Mumbai,rohan.verma73@example.com,3237.5,4
+C074,ananya singh,49, chennai ,ananya.singh74@example.com,3275.0,5
+C075,VIKRAM PATEL,50,HYDERABAD,vikram.patel75@example.com,3312.5,1
+C076,  sneha reddy  ,twenty five,pune,sneha.reddy76@example.com,3350.0,2
+C077,Arjun Nair,52, Kolkata,arjun.nair77@example.com,,3
+ c078 ,PRIYA DAS,,ahmedabad ,priya.das78@example.com,3425.0,4
+C079,kabir khan,54,JAIPUR,kabir.khan79@example.com,3462.5,5
+C080,  Neha Joshi  ,55,lucknow,  NEHA.JOSHI@EXAMPLE.COM  ,3500.0,
+C081,aarav sharma,56,  bangalore  ,aarav.sharma81@example.com,3537.5,2
+C082,MEERA IYER,57,DELHI,meera.iyer82@example.com,3575.0,3
+C083,Rohan Verma,58,Mumbai,rohan.verma83@example.com,3612.5,4
+ c084 ,  ananya singh  ,59,,,"₹1,250.50",5
+C085,VIKRAM PATEL,unknown,HYDERABAD,vikram.patel85@example.com,3687.5,1
+C086,sneha reddy,61,pune,sneha.reddy86@example.com,3725.0,2
+C087,,62, Kolkata,arjun.nair87@example.com,3762.5,3
+C088,  PRIYA DAS  ,63,ahmedabad ,  PRIYA.DAS@EXAMPLE.COM  ,,4
+C089,kabir khan,64,JAIPUR,kabir.khan89@example.com,3837.5,5
+ c090 ,Neha Joshi,20,  lucknow  ,neha.joshi90@example.com,3875.0,
+C091,aarav sharma,,bangalore,aarav.sharma91@example.com,"₹1,250.50",2
+C092,  MEERA IYER  ,22,DELHI,meera.iyer92@example.com,not available,3
+C093,Rohan Verma,23,Mumbai,rohan.verma93@example.com,3987.5,4
+C094,ananya singh,24, chennai ,ananya.singh94@example.com,4025.0,5
+C095,VIKRAM PATEL,twenty five,HYDERABAD,vikram.patel95@example.com,4062.5,1
+ c096 ,  sneha reddy  ,26,pune,,4100.0,five
+C097,Arjun Nair,27, Kolkata,arjun.nair97@example.com,4137.5,3
+C098,PRIYA DAS,28,,priya.das98@example.com,"₹1,250.50",4
+C099,kabir khan,29,  JAIPUR  ,kabir.khan99@example.com,,5
+C100,  Neha Joshi  ,30,lucknow,neha.joshi100@example.com,4250.0,
+C101,aarav sharma,31,bangalore,aarav.sharma101@example.com,4287.5,2
+ c102 ,MEERA IYER,unknown,DELHI,meera.iyer102@example.com,4325.0,3
+C103,Rohan Verma,33,Mumbai,rohan.verma103@example.com,4362.5,4
+C104,  ananya singh  ,, chennai ,  ANANYA.SINGH@EXAMPLE.COM  ,4400.0,5
+C105,VIKRAM PATEL,35,HYDERABAD,vikram.patel105@example.com,"₹1,250.50",1
+C106,sneha reddy,36,pune,sneha.reddy106@example.com,4475.0,2
+C107,Arjun Nair,37, Kolkata,arjun.nair107@example.com,4512.5,3
+ c108 ,  PRIYA DAS  ,38,  ahmedabad  ,,4550.0,4
+C109,kabir khan,39,JAIPUR,kabir.khan109@example.com,4587.5,5
+C110,Neha Joshi,40,lucknow,neha.joshi110@example.com,,
+C021,aarav sharma,41,bangalore,aarav.sharma21@example.com,"₹1,250.50",2
+C022,MEERA IYER,42,DELHI,meera.iyer22@example.com,,3
+C023,Rohan Verma,43,Mumbai,rohan.verma23@example.com,not available,4
+ c024 ,  ananya singh  ,44, chennai ,,1400.0,5
+C025,VIKRAM PATEL,45,HYDERABAD,vikram.patel25@example.com,1437.5,1
+C026,sneha reddy,,pune,sneha.reddy26@example.com,1475.0,2
+C027,Arjun Nair,47,  Kolkata  ,arjun.nair27@example.com,1512.5,3
+C028,  PRIYA DAS  ,48,,priya.das28@example.com,"₹1,250.50",4
+C029,,49,JAIPUR,kabir.khan29@example.com,1587.5,5
+ c030 ,Neha Joshi,50,lucknow,neha.joshi30@example.com,1625.0,
