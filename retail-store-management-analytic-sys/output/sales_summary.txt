@@ -1,0 +1,115 @@
+RETAIL STORE SALES REPORT
+==================================================
+Raw Sales Shape: (62, 8)
+Cleaned Sales Shape: (60, 9)
+Total Transactions: 60
+Total Quantity Sold: 180
+Total Revenue: ₹2,407,748.00
+Average Transaction Value: ₹40,129.13
+Highest-Value Transaction: TXN019 (₹290,000.00)
+Lowest-Value Transaction: TXN026 (₹499.00)
+Best-Selling Product: Camera (10 units)
+Lowest-Selling Product: Ikigai (2 units)
+Highest Revenue Category: Electronics
+Highest Revenue City: Bangalore
+Average Product Price: ₹12,211.07
+Maximum Product Price: ₹72,000.00
+Minimum Product Price: ₹375.00
+
+SALES CATEGORY-WISE
+category
+Books          60
+Clothing       60
+Electronics    60
+
+REVENUE CATEGORY-WISE
+category
+Electronics   ₹2,182,990.00
+Clothing        ₹191,740.00
+Books            ₹33,018.00
+
+REVENUE PRODUCT-WISE
+product_name
+Camera                    ₹580,000.00
+Tablet                    ₹440,000.00
+Smart Tv                  ₹432,000.00
+Smartphone                ₹420,000.00
+Laptop                    ₹130,000.00
+Monitor                   ₹111,000.00
+Jacket                     ₹35,994.00
+Denim Jeans                ₹34,990.00
+Hoodie                     ₹32,990.00
+Headphones                 ₹26,000.00
+Bluetooth Speaker          ₹23,992.00
+Track Pants                ₹17,592.00
+Sweater                    ₹17,394.00
+Kurta                      ₹15,996.00
+T-Shirt                    ₹11,992.00
+Cargo Trousers             ₹10,796.00
+Keyboard                   ₹10,000.00
+Smartwatch                  ₹9,998.00
+Saree                       ₹8,998.00
+Atomic Habits               ₹5,990.00
+Think Like A Monk           ₹5,200.00
+Formal Shirt                ₹4,998.00
+Clean Code                  ₹4,794.00
+Rich Dad Poor Dad           ₹4,500.00
+The Alchemist               ₹3,192.00
+Wings Of Fire               ₹2,250.00
+Deep Work                   ₹2,196.00
+The Psychology Of Money     ₹2,100.00
+Python Crash Course         ₹1,798.00
+Ikigai                        ₹998.00
+
+REVENUE CITY-WISE
+customer_city
+Bangalore   ₹741,582.00
+Mumbai      ₹573,294.00
+Delhi       ₹491,780.00
+Chennai     ₹462,188.00
+Pune         ₹69,474.00
+Hyderabad    ₹69,430.00
+
+PAYMENT-METHOD DISTRIBUTION
+payment_method
+UPI            12
+Credit Card    12
+Debit Card     12
+Cash           12
+Net Banking    12
+
+TOP 5 PRODUCTS
+               quantity_sold    revenue
+product_name                           
+Camera                    10 580,000.00
+Smartphone                10 420,000.00
+Denim Jeans               10  34,990.00
+Hoodie                    10  32,990.00
+Atomic Habits             10   5,990.00
+
+BOTTOM 5 PRODUCTS
+                     quantity_sold  revenue
+product_name                               
+Ikigai                           2   998.00
+Python Crash Course              2 1,798.00
+Formal Shirt                     2 4,998.00
+Saree                            2 8,998.00
+Smartwatch                       2 9,998.00
+
+PRODUCTS WITH STOCK BELOW 10
+product_id              name  stock
+      P007            Camera      5
+      P004          Smart TV      6
+      P019           Sweater      7
+      P003            Tablet      8
+      P028 Think Like a Monk      8
+      P014            Jacket      9
+
+PRODUCTS PRICED ABOVE AVERAGE
+product_id       name   price
+      P004   Smart TV 72000.0
+      P001     Laptop 65000.0
+      P007     Camera 58000.0
+      P003     Tablet 55000.0
+      P002 Smartphone 42000.0
+      P009    Monitor 18500.0

@@ -1,0 +1,63 @@
+transaction_id,product_id,product_name,category,quantity,price,customer_city,payment_method
+TXN001,P001, Laptop ,electronics,1,65000.0, Bangalore ,UPI
+TXN002,P008,Bluetooth Speaker,Electronics,4,2999.0,DELHI,Credit Card
+TXN003,P015,Kurta,Clothing,2,3999.0,mumbai,debit card
+TXN004,P022,Atomic Habits,Books,5,599.0,Chennai,Cash
+TXN005,P029,Wings of Fire,Books,3,375.0,HYDERABAD,Net Banking
+TXN006,P006,Smartwatch,Electronics,1,4999.0,Pune,UPI
+TXN007,P013,T-Shirt,Clothing,4,1499.0, Bangalore ,Credit Card
+TXN008,P020,Cargo Trousers,Clothing,2,2699.0,DELHI,debit card
+TXN009,P027, Rich Dad Poor Dad ,Books,5,450.0,mumbai,Cash
+TXN010,P004,Smart TV,electronics,3,72000.0,Chennai,Net Banking
+TXN011,P011,Formal Shirt,Clothing,1,2499.0,HYDERABAD,UPI
+TXN012,P018,Track Pants,Clothing,4,2199.0,Pune,Credit Card
+TXN013,P025,Deep Work,Books,2,549.0, Bangalore ,debit card
+TXN014,P002,Smartphone,Electronics,5,42000.0,DELHI,Cash
+TXN015,P009,Monitor,Electronics,3,18500.0,mumbai,Net Banking
+TXN016,P016,Saree,Clothing,1,4499.0,Chennai,UPI
+TXN017,P023, The Alchemist ,Books,4,399.0,HYDERABAD,Credit Card
+TXN018,P030,The Psychology of Money,Books,2,525.0,Pune,debit card
+TXN019,P007,Camera,electronics,5,58000.0, Bangalore ,Cash
+TXN020,P014,Jacket,Clothing,3,5999.0,DELHI,Net Banking
+TXN021,P021,Python Crash Course,Books,1,899.0,mumbai,UPI
+TXN022,P028,Think Like a Monk,Books,4,650.0,Chennai,Credit Card
+TXN023,P005,Headphones,Electronics,2,6500.0,HYDERABAD,debit card
+TXN024,P012,Denim Jeans,Clothing,5,3499.0,Pune,Cash
+TXN025,P019, Sweater ,Clothing,3,2899.0, Bangalore ,Net Banking
+TXN026,P026,Ikigai,Books,1,499.0,DELHI,UPI
+TXN027,P003,Tablet,Electronics,4,55000.0,mumbai,Credit Card
+TXN028,P010,Keyboard,electronics,2,2500.0,Chennai,debit card
+TXN029,P017,Hoodie,Clothing,5,3299.0,HYDERABAD,Cash
+TXN030,P024,Clean Code,Books,3,799.0,Pune,Net Banking
+TXN031,P001,Laptop,Electronics,1,65000.0, Bangalore ,UPI
+TXN032,P008,Bluetooth Speaker,Electronics,4,2999.0,DELHI,Credit Card
+TXN033,P015, Kurta ,Clothing,2,3999.0,mumbai,debit card
+TXN034,P022,Atomic Habits,Books,5,599.0,Chennai,Cash
+TXN035,P029,Wings of Fire,Books,3,375.0,HYDERABAD,Net Banking
+TXN036,P006,Smartwatch,Electronics,1,4999.0,Pune,UPI
+TXN037,P013,T-Shirt,clothing,4,1499.0, Bangalore ,Credit Card
+TXN038,P020,Cargo Trousers,Clothing,2,2699.0,DELHI,debit card
+TXN039,P027,Rich Dad Poor Dad,Books,5,450.0,mumbai,Cash
+TXN040,P004,Smart TV,Electronics,3,72000.0,Chennai,Net Banking
+TXN041,P011, Formal Shirt ,Clothing,1,2499.0,HYDERABAD,UPI
+TXN042,P018,Track Pants,Clothing,4,2199.0,Pune,Credit Card
+TXN043,P025,Deep Work,Books,2,549.0, Bangalore ,debit card
+TXN044,P002,Smartphone,Electronics,5,42000.0,DELHI,Cash
+TXN045,P009,Monitor,Electronics,3,18500.0,mumbai,Net Banking
+TXN046,P016,Saree,clothing,1,4499.0,Chennai,UPI
+TXN047,P023,The Alchemist,Books,4,399.0,HYDERABAD,Credit Card
+TXN048,P030,The Psychology of Money,Books,2,525.0,Pune,debit card
+TXN049,P007, Camera ,Electronics,5,58000.0, Bangalore ,Cash
+TXN050,P014,Jacket,Clothing,3,5999.0,DELHI,Net Banking
+TXN051,P021,Python Crash Course,Books,1,899.0,mumbai,UPI
+TXN052,P028,Think Like a Monk,Books,4,650.0,Chennai,Credit Card
+TXN053,P005,Headphones,Electronics,2,6500.0,HYDERABAD,debit card
+TXN054,P012,Denim Jeans,Clothing,5,3499.0,Pune,Cash
+TXN055,P019,Sweater,clothing,3,2899.0, Bangalore ,Net Banking
+TXN056,P026,Ikigai,Books,1,499.0,DELHI,UPI
+TXN057,P003, Tablet ,Electronics,4,55000.0,mumbai,Credit Card
+TXN058,P010,Keyboard,Electronics,2,2500.0,Chennai,debit card
+TXN059,P017,Hoodie,Clothing,5,3299.0,HYDERABAD,Cash
+TXN060,P024,Clean Code,Books,3,799.0,Pune,Net Banking
+TXN011,P011,Formal Shirt,Clothing,1,2499.0,HYDERABAD,UPI
+TXN036,P006,Smartwatch,Electronics,1,4999.0,Pune,UPI

@@ -1,0 +1,31 @@
+product_id,name,brand,category,price,stock,warranty,model,size,material,author,publisher
+P001,Laptop,Dell,Electronics,65000.0,20,2 Years,Inspiron 15,,,,
+P002,Smartphone,Samsung,Electronics,42000.0,22,1 Year,Galaxy A55,,,,
+P003,Tablet,Apple,Electronics,55000.0,8,1 Year,iPad Air,,,,
+P004,Smart TV,Sony,Electronics,72000.0,6,2 Years,Bravia X80L,,,,
+P005,Headphones,JBL,Electronics,6500.0,35,1 Year,Tune 770NC,,,,
+P006,Smartwatch,Noise,Electronics,4999.0,28,1 Year,ColorFit Pro,,,,
+P007,Camera,Canon,Electronics,58000.0,5,2 Years,EOS 1500D,,,,
+P008,Bluetooth Speaker,Boat,Electronics,2999.0,40,1 Year,Stone 1200,,,,
+P009,Monitor,LG,Electronics,18500.0,12,3 Years,UltraGear 24,,,,
+P010,Keyboard,Logitech,Electronics,2500.0,45,1 Year,K380,,,,
+P011,Formal Shirt,Van Heusen,Clothing,2499.0,30,,,L,Cotton,,
+P012,Denim Jeans,Levis,Clothing,3499.0,25,,,32,Denim,,
+P013,T-Shirt,Puma,Clothing,1499.0,50,,,M,Cotton,,
+P014,Jacket,Adidas,Clothing,5999.0,9,,,XL,Polyester,,
+P015,Kurta,Manyavar,Clothing,3999.0,18,,,L,Silk Blend,,
+P016,Saree,Biba,Clothing,4499.0,14,,,Free Size,Cotton Silk,,
+P017,Hoodie,Nike,Clothing,3299.0,21,,,M,Fleece,,
+P018,Track Pants,Reebok,Clothing,2199.0,27,,,L,Polyester,,
+P019,Sweater,Allen Solly,Clothing,2899.0,7,,,M,Wool,,
+P020,Cargo Trousers,Roadster,Clothing,2699.0,16,,,34,Cotton,,
+P021,Python Crash Course,No Starch Press,Books,899.0,32,,,,,Eric Matthes,No Starch Press
+P022,Atomic Habits,Penguin,Books,599.0,48,,,,,James Clear,Penguin
+P023,The Alchemist,HarperCollins,Books,399.0,42,,,,,Paulo Coelho,HarperCollins
+P024,Clean Code,Pearson,Books,799.0,11,,,,,Robert C. Martin,Pearson
+P025,Deep Work,Piatkus,Books,549.0,24,,,,,Cal Newport,Piatkus
+P026,Ikigai,Random House,Books,499.0,38,,,,,Hector Garcia,Random House
+P027,Rich Dad Poor Dad,Plata,Books,450.0,29,,,,,Robert Kiyosaki,Plata
+P028,Think Like a Monk,Simon & Schuster,Books,650.0,8,,,,,Jay Shetty,Simon & Schuster
+P029,Wings of Fire,Universities Press,Books,375.0,36,,,,,A. P. J. Abdul Kalam,Universities Press
+P030,The Psychology of Money,Jaico,Books,525.0,20,,,,,Morgan Housel,Jaico
