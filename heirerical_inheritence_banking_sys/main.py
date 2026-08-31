@@ -82,7 +82,7 @@ class SalaryAccount(BankAccount):
         print(f"Monthly salary: ₹{self.monthly_salary:,.2f}")
 
 
-def main():
+def main() -> None:
     accounts = [
         SavingsAccount("SAV101", "Aarav Sharma", 50000, 4.5),
         SavingsAccount("SAV102", "Meera Iyer", 72500, 4.0),

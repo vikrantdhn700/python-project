@@ -1,0 +1,61 @@
+ticket_id,customer_name,category,priority,status,assigned_agent,resolution_time
+TKT001,Aarav Sharma,Payment,High,Resolved,Neha,4.5
+TKT002,Meera Iyer,Technical,Critical,In Progress,Rahul,
+TKT003,Rohan Verma,Login,Medium,Closed,Priya,2.0
+TKT004,Ananya Singh,Course,Low,Open,Amit,
+TKT005,Vikram Patel,Refund,High,Resolved,Sneha,8.5
+TKT006,Sneha Reddy,Account,Medium,Closed,Karan,3.5
+TKT007,Arjun Nair,Technical,High,In Progress,Neha,
+TKT008,Priya Das,Payment,Low,Resolved,Rahul,6.0
+TKT009,Kabir Khan,Login,Critical,Closed,Priya,1.0
+TKT010,Neha Joshi,Course,Medium,Open,Amit,
+TKT011,Aditya Rao,Refund,Critical,Resolved,Sneha,12.0
+TKT012,Ishita Mehta,Account,Low,Closed,Karan,2.5
+TKT013,Dev Malhotra,Payment,Medium,In Progress,Neha,
+TKT014,Kavya Menon,Technical,Critical,Resolved,Rahul,5.5
+TKT015,Reyansh Gupta,Login,High,Open,Priya,
+TKT016,Diya Kapoor,Course,Low,Closed,Amit,7.0
+TKT017,Arnav Bose,Refund,Medium,Resolved,Sneha,9.5
+TKT018,Saanvi Shah,Account,High,In Progress,Karan,
+TKT019,Vihaan Kumar,Payment,Critical,Closed,Neha,3.0
+TKT020,Aadhya Jain,Technical,Medium,Open,Rahul,
+TKT021,Siddharth Roy,Login,Low,Resolved,Priya,1.5
+TKT022,Tanvi Arora,Course,High,Closed,Amit,10.0
+TKT023,Krishna Pillai,Refund,Critical,In Progress,Sneha,
+TKT024,Myra Chawla,Account,Medium,Resolved,Karan,4.0
+TKT025,Dhruv Bhat,Payment,Low,Open,Neha,
+TKT026,Riya Sen,Technical,High,Closed,Rahul,6.5
+TKT027,Manav Saxena,Login,Medium,Resolved,Priya,2.5
+TKT028,Aanya Kulkarni,Course,Critical,In Progress,Amit,
+TKT029,Yash Agarwal,Refund,High,Open,Sneha,
+TKT030,Avni Desai,Account,Low,Closed,Karan,3.0
+TKT031,Harsh Vardhan,Payment,Critical,Resolved,Neha,7.5
+TKT032,Nitya Mishra,Technical,Medium,In Progress,Rahul,
+TKT033,Parth Sinha,Login,High,Closed,Priya,1.8
+TKT034,Anvi Shetty,Course,Low,Resolved,Amit,5.0
+TKT035,Laksh Joshi,Refund,Medium,Open,Sneha,
+TKT036,Ira Banerjee,Account,Critical,Closed,Karan,4.5
+TKT037,Neil Dutta,Payment,High,In Progress,Neha,
+TKT038,Tara Khanna,Technical,Low,Resolved,Rahul,8.0
+TKT039,Om Prakash,Login,Critical,Open,Priya,
+TKT040,Siya Gill,Course,Medium,Closed,Amit,11.5
+TKT041,Rudra Pandey,Refund,High,Resolved,Sneha,6.8
+TKT042,Mahi Tiwari,Account,Low,In Progress,Karan,
+TKT043,Ayush Chopra,Payment,Medium,Open,Neha,
+TKT044,Navya Nanda,Technical,Critical,Closed,Rahul,4.2
+TKT045,Veer Oberoi,Login,High,Resolved,Priya,2.2
+TKT046,Kiara Naidu,Course,Medium,In Progress,Amit,
+TKT047,Samarth Goel,Refund,Low,Closed,Sneha,14.0
+TKT048,Arya Krishnan,Account,High,Open,Karan,
+TKT049,Ayaan Thakur,Payment,Critical,Resolved,Neha,3.8
+TKT050,Zara Qureshi,Technical,Medium,Closed,Rahul,7.2
+TKT051,Shivansh Yadav,Login,Low,In Progress,Priya,
+TKT052,Anika Sood,Course,High,Resolved,Amit,9.0
+TKT053,Atharv Rane,Refund,Critical,Open,Sneha,
+TKT054,Prisha Rao,Account,Medium,Closed,Karan,5.5
+TKT055,Ritvik Bansal,Payment,Low,Resolved,Neha,6.2
+TKT056,Trisha Paul,Technical,High,In Progress,Rahul,
+TKT057,Advait Ghosh,Login,Critical,Closed,Priya,0.8
+TKT058,Samaira Kaur,Course,Medium,Open,Amit,
+TKT059,Eshan Dubey,Refund,High,Resolved,Sneha,10.5
+TKT060,Anushka Lal,Account,Low,Closed,Karan,2.8
