@@ -40,7 +40,7 @@ class StudentUpdate(BaseModel):
     )
     age: Optional[int] = Field(
         default=None,
-        gt=0,
+        ge=10,
         le=100
     )
     course: Optional[str] = Field(
