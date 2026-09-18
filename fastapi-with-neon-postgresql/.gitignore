@@ -1,0 +1,15 @@
+# Neon connection details
+.env
+
+# Virtual environment
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Editor and test files
+.vscode/
+.idea/
+.pytest_cache/
+.coverage
