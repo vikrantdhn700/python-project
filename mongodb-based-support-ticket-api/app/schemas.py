@@ -13,6 +13,12 @@ class Customer(BaseModel):
     phone: Optional[str] = Field(default=None, max_length=30)
 
 
+class CustomerUpdate(BaseModel):
+    name: Optional[str] = Field(default=None, min_length=2, max_length=100)
+    email: Optional[EmailStr] = None
+    phone: Optional[str] = Field(default=None, max_length=30)
+
+
 class CommentCreate(BaseModel):
     author: str = Field(min_length=2, max_length=100)
     message: str = Field(min_length=1, max_length=2000)
@@ -32,7 +38,7 @@ class TicketCreate(BaseModel):
 
 
 class TicketUpdate(BaseModel):
-    customer: Optional[Customer] = None
+    customer: Optional[CustomerUpdate] = None
     title: Optional[str] = Field(default=None, min_length=3, max_length=200)
     description: Optional[str] = Field(
         default=None, min_length=5, max_length=5000)

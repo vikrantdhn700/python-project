@@ -4,7 +4,7 @@ from typing import Optional
 
 from bson import ObjectId
 from fastapi import FastAPI, HTTPException, Query, status
-
+from pymongo import ReturnDocument
 from app.database import tickets_collection
 from app.schemas import CommentCreate, StatusUpdate, TicketCreate, TicketPriority, TicketResponse, TicketStatus, TicketUpdate
 
@@ -76,17 +76,27 @@ def get_ticket(ticket_id: str):
 @app.patch("/tickets/{ticket_id}", response_model=TicketResponse)
 def update_ticket(ticket_id: str, ticket: TicketUpdate):
     update_data = ticket.model_dump(exclude_none=True)
-    if update_data:
-        update_data["updated_at"] = datetime.now(timezone.utc)
-        tickets_collection.update_one(
-            {"_id": ticket_id_or_404(ticket_id)},
-            {"$set": update_data},
-        )
+    if not update_data:
+        raise HTTPException(
+            status_code=400, detail="No fields provided for update")
 
-    updated_ticket = tickets_collection.find_one(
-        {"_id": ticket_id_or_404(ticket_id)})
-    if updated_ticket is None:
+    set_query = {}
+    for key, value in update_data.items():
+        if key == "customer" and isinstance(value, dict):
+            for sub_key, sub_val in value.items():
+                set_query[f"customer.{sub_key}"] = sub_val
+        else:
+            set_query[key] = value
+
+    set_query["updated_at"] = datetime.now(timezone.utc)
+    updated_ticket = tickets_collection.find_one_and_update(
+        {"_id": ObjectId(ticket_id)},
+        {"$set": set_query},
+        return_document=ReturnDocument.AFTER,
+    )
+    if not updated_ticket:
         raise HTTPException(status_code=404, detail="Ticket not found")
+
     return ticket_response(updated_ticket)
 
 
