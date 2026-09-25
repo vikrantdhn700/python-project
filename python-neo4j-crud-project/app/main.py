@@ -45,12 +45,12 @@ def main():
         print(db.update_student("Alice", age=23, city="Bangalore"))
 
         print("\n6. DELETE RELATIONSHIP")
-        # deleted_relationships = db.delete_relationship("Alice", "Bob")
-        # print(f"Deleted relationships: {deleted_relationships}")
+        deleted_relationships = db.delete_relationship("Alice", "Bob")
+        print(f"Deleted relationships: {deleted_relationships}")
 
         print("\n7. DELETE NODE")
-        # deleted_nodes = db.delete_student("Charlie")
-        # print(f"Deleted nodes: {deleted_nodes}")
+        deleted_nodes = db.delete_student("Charlie")
+        print(f"Deleted nodes: {deleted_nodes}")
 
         print_students("FINAL STUDENTS", db.read_students())
 
