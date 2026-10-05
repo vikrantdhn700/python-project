@@ -1,0 +1,20 @@
+version: "3.8"
+services:
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_DB: super30db
+      POSTGRES_USER: super30
+      POSTGRES_PASSWORD: super30pass
+    volumes:
+      - super30-pgdata:/var/lib/postgresql/data
+  api:
+    build: ./task-08
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: postgresql://super30:super30pass@db:5432/super30db
+    ports:
+      - "8000:8000"
+volumes:
+  super30-pgdata: {}
